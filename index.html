@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ZohoLearn</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/1d273bf567.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">ZohoLearn</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="progress.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="progress.html">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Welcome to ZohoLearn Find The Right Course For You</h1>
+            <a href="progress.html"
+              ><button
+                type="button"
+                class="btn btn-dark btn-lg download-button"
+              >
+                <i class="fab fa-apple"></i> Download
+              </button></a
+            >
+            <a href="progress.html"
+              ><button
+                type="button"
+                class="btn btn-outline-light btn-lg download-button"
+              >
+                <i class="fab fa-google-play"></i> Download
+              </button></a
+            >
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-img"
+              src="images/title-img.png"
+              alt="title_image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="col-lg-4 box">
+          <i class="fas fa-check-circle fa-4x"></i>
+          <h3>Easy to learn.</h3>
+          <p>All courses are structured for beginners.</p>
+        </div>
+        <div class="col-lg-4 box">
+          <i class="fas fa-bullseye fa-4x"></i>
+          <h3>Ultimate Course Assignments</h3>
+          <p>
+            To give students a clear understanding of where they are headed.
+          </p>
+        </div>
+        <div class="col-lg-4 box">
+          <i class="fas fa-heart fa-4x"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Get 10 guaranteed placement opportunities.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div
+        id="testimonial-carousel"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-text">
+              This course is making me apply what I learn in my own creative
+              way. The whole course needs to be re-organized. But as soon as
+              that happens, I'm happy with what I learned.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/Tom.jpg"
+              alt="tomholland-profile"
+              width="80"
+              height="80"
+            />
+            <em>Tom Holland</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              This course is quite comprehensive. This course does not teach
+              everything but the basics of everything frontend and backend. I
+              enjoyed the course, the jokes, the projects, challenges.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/Zendaya.jpg"
+              alt="zendaya-profile"
+              width="80"
+              height="80"
+            />
+            <em>Zendaya</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="p-image" src="images/TechCrunch.png" alt="tc-logo" />
+      <img class="p-image" src="images/netapp.svg" alt="netapp-logo" />
+      <img class="p-image" src="images/bizinsider.png" alt="biz-insider-logo" />
+      <img class="p-image" src="images/eventbrite.svg" alt="eventbrite-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2>Popular Online Course</h2>
+      <p>
+        Take courses from the world's best instructors and universities. Courses
+        include recorded auto-graded and peer-reviewed assignments, video
+        lectures, and community discussion forums. When you complete a course,
+        you’ll be eligible to receive a shareable electronic Course Certificate
+        for a small fee.
+      </p>
+      <div class="row">
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img-top" src="images/aws.png" alt="aws_image" />
+              <h2 class="card-title">AWS</h2>
+              <h4 class="card-subtitle">₹2099</h4>
+              <p class="caed-text">Course Duration : 1-3 months</p>
+              <p class="caed-text">Instructor : Dr.Chunk</p>
+              <a href="progress.html" style="text-decoration: none"
+                ><button type="button" class="btn btn-dark btn-lg btn-block">
+                  Enroll
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img
+                class="card-img-top"
+                src="images/java.png"
+                alt="java_image"
+              />
+              <h2 class="card-title">Java</h2>
+              <h4 class="card-subtitle">₹4599</h4>
+              <p>Course Duration : 4-5 months</p>
+              <p>Instructor : Angela Yu</p>
+              <a href="progress.html" style="text-decoration: none"
+                ><button type="button" class="btn btn-dark btn-lg btn-block">
+                  Enroll
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <img
+                class="card-img-top"
+                src="images/devops.jpg"
+                alt="devops_img"
+              />
+              <h2 class="card-title">DevOps</h2>
+              <h4 class="card-subtitle">₹5999</h4>
+              <p>Course Duration : 5-6 months</p>
+              <p>Instructor : Maximillion</p>
+              <a href="progress.html" style="text-decoration: none"
+                ><button type="button" class="btn btn-dark btn-lg btn-block">
+                  Enroll
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3>Learning that fits your life — on iOS and Android</h3>
+      <button class="btn btn-dark btn-lg" type="button">
+        <i class="fab fa-apple"></i> Download
+      </button>
+      <button class="btn btn-light btn-lg" type="button">
+        <i class="fab fa-google-play"></i> Download
+      </button>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="fab fa-linkedin"></i>
+      <a
+        href="https://github.com/Prathis2003/ZohoLearn-Bot"
+        style="color: black"
+        target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      <i class="fas fa-envelope"></i>
+      <p>© Copyright 2022 ZohoLearn</p>
+    </footer>
+
+    <!-- Bot -->
+    <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "0621ef912f3f4a1a3cbc1f78d9b527175590b052db4ce9554655264391eeb7b7ecf828a21cc81c772f5fa2b61f2bc3ac", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+  </body>
+</html>
